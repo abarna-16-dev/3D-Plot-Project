@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: lightblue;
+}
+
+canvas {
+    background-color: black;
+    border: 2px solid gray;
+}
+
+.controls {
+    margin: 20px;
+}
+
+input[type="range"] {
+    width: 250px;
+}
+
+select {
+    padding: 5px;
+}

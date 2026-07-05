@@ -1,0 +1,55 @@
+<!--ABARNA>S-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Scatter Plot Projection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>3D Scatter Plot Projection</h1>
+
+    <div class="controls">
+        <label>Projection:
+            <select id="projection">
+                <option>Orthographic</option>
+                <option>Perspective</option>
+            </select>
+        </label>
+
+        <br><br>
+
+        <label>Yaw:
+            <input type="range" id="yaw" min="0" max="360" value="0">
+        </label>
+
+        <br><br>
+
+        <label>Pitch:
+            <input type="range" id="pitch" min="0" max="360" value="0">
+        </label>
+
+        <br><br>
+
+        <label>Roll:
+            <input type="range" id="roll" min="0" max="360" value="0">
+        </label>
+
+        <br><br>
+
+        <label>
+            <input type="checkbox" id="autoRotate" checked>
+            Auto Rotate
+        </label>
+    </div>
+
+    <br>
+
+    <canvas id="canvas" width="900" height="600"></canvas>
+
+    <script src="ss.js"></script>
+
+</body>
+</html>
