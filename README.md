@@ -187,7 +187,7 @@ Handles:
 
 The project renders a rotating 3D scatter plot on a 2D canvas with selectable projection modes.
 
-![Project Output](https://github.com/user-attachments/assets/96c302d2-bbe7-476a-b1e5-f0737ab94a29)
+![Project Output](<img width="1351" height="679" alt="image" src="https://github.com/user-attachments/assets/8aab06c7-d9d5-4f9c-8168-992fba1a4f87" />)
 
 ---
 
